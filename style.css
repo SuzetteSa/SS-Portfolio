@@ -1,15 +1,15 @@
 :root {
-  --first-color: #47cacc;
-  --second-color: #63bcc9;
-  --third-color: #cdb3d4;
-  --fourth-color: #e7b7cb;
-  --fifth-color: #ffbe88;
+  --first-color: #E4DFD9;
+  --second-color: #E4C7B7;
+  --third-color: #C2649A;
+  --fourth-color: #8B4C70;
+  --fifth-color: #522157;
   --background-color: black;
   --gradient: linear-gradient(
     96.2deg,
-    #ffbe88 10.4%,
-    #cdb3d4 43.8%,
-    #47cacc 105.8%
+    #F1D4D4 10.4%,
+    #C060A1 43.8%,
+    #8B4C70 105.8%
   );
 }
 
@@ -21,18 +21,18 @@ body {
 
 
 .hero-heading {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bold;
   color: var(--fourth-color);
 }
 
 .container {
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 0px;
   }
 
 nav {
-  padding: 10px;
+  padding: 5px;
 }
 
 nav ul {
@@ -94,7 +94,7 @@ nav li {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  padding: 60px 20px;
+  padding: 50px 20px;
 }
 
 .hero-name{
