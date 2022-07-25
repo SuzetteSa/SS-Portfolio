@@ -1,15 +1,15 @@
 :root {
-  --first-color: #A1C3D1;
-  --second-color: #B39BC8;
-  --third-color: #9860c8;
-  --fourth-color: #F172A1;
+  --first-color: #27E1CE;
+  --second-color: #55d259;
+  --third-color: #EBE913;
+  --fourth-color: #FF9B71;
   --fifth-color: #E64398;
   --background-color: black;
   --gradient: linear-gradient(
     96.2deg,
-    #A1C3D1 11%,
-    #9860c8 45%,
-    #E64398 90%
+    #27E1CE 20%,
+    #55d259 45%,
+    #E64398 70%
   );
 }
 
@@ -106,7 +106,7 @@ nav li {
 }
 
 .hero-blurb{
-    color: var(--third-color);
+    color: var(--fourth-color);
 }
 
 .main-contact-links{
