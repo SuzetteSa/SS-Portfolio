@@ -23,7 +23,7 @@ body {
 .hero-heading {
   font-size: 60px;
   font-weight: bold;
-  color: var(--fourth-color);
+  color: var(--second-color);
 }
 
 .container {
