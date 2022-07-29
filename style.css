@@ -78,10 +78,6 @@ nav li {
   color: var(--fifth-color);
 }
 
-.first-name {
-  font-family: "Sacramento", cursive;
-}
-
 .hero {
   border: 10px solid;
   border-image-slice: 1;
@@ -101,7 +97,8 @@ nav li {
 }
 
 .hero-name{
- font-size: 150px;   
+ font-size: 150px;
+ font-family: "Sacramento", cursive;   
 }
 
 .about-hero{
