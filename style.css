@@ -5,6 +5,8 @@
   --fourth-color: #c36dbc;
   --fifth-color: #9A0680;
   --background-color: #3E065F;
+  --darkest-color:#000;
+  --box-shadow: 0 0 8px rgba(250, 250, 250, 0.6);
   --gradient: linear-gradient(
     96.2deg,
     #9A0680 20%,
@@ -71,10 +73,14 @@ nav li {
 }
 
 .work-link {
-  color: var(--third-color);
+  color: var(--second-color);
 }
 
 .contact-link {
+  color: var(--third-color);
+}
+
+.feedback-link {
   color: var(--fifth-color);
 }
 
@@ -152,6 +158,83 @@ nav li {
   color: var(--third-color);
 }
 
+
+.feedback-body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-container {
+  margin: auto;
+  width: 400px;
+  background: var(--darkest-color);
+  box-shadow: var(--box-shadow);
+  opacity: 0.6;
+}
+
+.feedback-container form {
+  text-align: center;
+  padding: 25px 20px;
+  color: var(--first-color);
+}
+
+.feedback-container form h1 {
+  padding: 10px 0px;
+  font-size: 30px;
+}
+
+.feedback-container form h2 {
+  padding: 10px 0px;
+  font-size: 18px;
+}
+
+.feedback-container form input {
+  width: 100%;
+  height: 50px;
+  margin: 4px 0;
+  border: 1px solid var(--first-color);
+  border-radius: 3px;
+  background: var(--background-color);
+  font-size: 20px;
+}
+
+.feedback-container form textarea {
+  padding: 5px 0px;
+  border: 1px solid var(--first-color);
+  border-radius: 3px;
+  background: var(--background-color);
+  font-size: 20px;
+  width: 100%;
+  margin: 4px 0;
+}
+
+.feedback-container form button {
+  margin-top: 5px;
+  border: none;
+  background: var(--fourth-color);
+  color: var(--darkest-color);
+  width: 100%;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 3px;
+}
+
+.feedback-container form input:focus,
+.feedback-container form textarea:focus {
+  border: 1px solid var(--first-color);
+  color: var(--first-color);
+  transition: all 0.3s ease;
+}
+
+.feedback-container form input:focus::placeholder,
+.feedback-container form textarea:focus::placeholder {
+  padding-left: 4px;
+  border: 1px solid var(--first-color);
+  color: var(--first-color);
+  transition: all 0.3s ease;
+}
 
 
 /* ----------------------------------------------
