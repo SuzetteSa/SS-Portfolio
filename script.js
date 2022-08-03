@@ -3,6 +3,7 @@ $("body").Geometryangle({
   mesh: {
     width: 1.2,
     height: 1.2,
+    
 
     // How far should the mesh vary into z-space.
     depth: 10,
