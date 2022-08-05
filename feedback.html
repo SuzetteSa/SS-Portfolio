@@ -62,25 +62,19 @@
             <input type="email" name="data[email]" placeholder="Email address">
         </div>
             <textarea cols="15" rows="5"  name="data[opinion]" placeholder="Enter your opinions here..."></textarea>
-            <button>Send</button>
+            <button id="modal-btn">Send</button>
+
+            <div class="modal">
+              <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                  <p>Thanks for your feedback!</p>
+              </div>
+            </div>
         
       </form>
     </div>
 
-<script>
-    var form = document.getElementById('sheetdb-form');
-    form.addEventListener("submit", e=> {
-        e.preventDefault();
-        fetch(form.action, {
-            method : "POST",
-            body: new FormData(document.getElementById("sheetdb-form")),
-        }).then(
-            response => response.json()
-        ).then((html) =>{
-            window.open('', '_blank');
-        });
-    });
-</script>
+
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://salesportal.aptaracorp.com/PPDI/POC/js/geometry/geometryangle.js'></script>

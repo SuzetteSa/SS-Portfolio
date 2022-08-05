@@ -93,3 +93,34 @@ $("body").Geometryangle({
 });
 
 
+let modalBtn = document.getElementById("modal-btn");
+let modal = document.querySelector(".modal");
+let closeBtn = document.querySelector(".close-btn");
+
+let form = document.getElementById('sheetdb-form');
+
+    form.addEventListener("submit", e=> {
+        e.preventDefault();
+        fetch(form.action, {
+            method : "POST",
+            body: new FormData(document.getElementById("sheetdb-form")),
+        }).then(
+            response => response.json()
+        ).then((html) =>{
+            modalBtn.onclick = function () {
+              modal.style.display = "block";
+            };
+            closeBtn.onclick = function () {
+              modal.style.display = "none";
+            };
+            window.onclick = function (e) {
+              if (e.target == modal) {
+                modal.style.display = "none";
+              }
+            };
+        });
+    });
+
+
+
+
