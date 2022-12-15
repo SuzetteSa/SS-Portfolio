@@ -1,4 +1,4 @@
-$("body").Geometryangle({
+/*$("body").Geometryangle({
   // handle transparent colors
   mesh: {
     width: 1.2,
@@ -119,7 +119,7 @@ let form = document.getElementById('sheetdb-form');
               }
             };
         });
-    });
+    });*/
 
 
 

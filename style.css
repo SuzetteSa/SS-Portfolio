@@ -1,18 +1,18 @@
 :root {
-  --first-color: #c19af1;
-  --second-color: #F637EC;
-  --third-color: #b11adf;
-  --fourth-color: #c36dbc;
-  --fifth-color: #9A0680;
-  --sixth-color: #a52ab0;
-  --background-color: #3E065F;
-  --darkest-color:#000;
+  --first-color: #da8ee7;
+  --second-color: #ca5cdd;
+  --third-color: #be2ed6;
+  --fourth-color: #a000c8;
+  --fifth-color: #8900c2;
+  --sixth-color: #7600bc;
+  --background-color: #f9f7fe;
+  --darkest-color:#4c00b0;
   --box-shadow: 0 0 8px rgba(250, 250, 250, 0.6);
   --gradient: linear-gradient(
     96.2deg,
-    #9A0680 20%,
-    #b11adf 45%,
-    #8407d7 70%
+    #ca5cdd 20%,
+    #a000c8 45%,
+    #7600bc 70%
   );
 }
 
@@ -20,6 +20,7 @@ html,
 body{
   width: 100%;
   height: 150vh;
+  background-color: var(--background-color);
 }
 
 .work-body{
@@ -75,23 +76,23 @@ nav li {
   color: var(--first-color);
 }
 .about-link {
-  color: var(--fourth-color);
-}
-
-.work-link {
   color: var(--second-color);
 }
 
-.contact-link {
+.work-link {
   color: var(--third-color);
 }
+
+.contact-link {
+  color: var(--fourth-color);
+}
 .resume-link {
-  color: var(--sixth-color);
+  color: var(--fifth-color);
 }
 
 
 .feedback-link {
-  color: var(--fifth-color);
+  color: var(--sixth-color);
 }
 
 .hero {
@@ -184,15 +185,14 @@ nav li {
 .feedback-container {
   margin: auto;
   width: 400px;
-  background: var(--darkest-color);
+  background: var(--sixth-color);
   box-shadow: var(--box-shadow);
-  opacity: 0.6;
 }
 
 .feedback-container form {
   text-align: center;
   padding: 25px 20px;
-  color: var(--first-color);
+  color: var(--background-color);
 }
 
 .feedback-container form h1 {
@@ -228,7 +228,7 @@ nav li {
 .feedback-container form button {
   margin-top: 5px;
   border: none;
-  background: var(--fourth-color);
+  background: var(--background-color);
   color: var(--darkest-color);
   width: 100%;
   font-size: 20px;
