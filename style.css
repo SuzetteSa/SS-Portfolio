@@ -18,6 +18,10 @@ body {
   background-color: var(--background-color);
 }
 
+.about-work-link{
+  text-decoration: dotted;
+ }
+ 
 .work-body {
   width: 100%;
   min-height: 100%;
@@ -114,6 +118,15 @@ nav li {
 .about-hero {
   font-size: 28px;
 }
+
+.profile-picture{
+  width: 450px;
+  height: 400px;
+  border-radius: 2%;
+  margin: 20px;
+ }
+
+ 
 
 .hero-blurb {
   color: var(--first-color);
