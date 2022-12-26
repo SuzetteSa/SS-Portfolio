@@ -44,6 +44,7 @@ body {
 
 nav {
   padding: 5px;
+  box-shadow: 0px 5px 10px rgba(74, 18, 120, 0.2);
 }
 
 nav ul {
@@ -54,7 +55,7 @@ nav ul {
 nav a {
   text-decoration: none;
   transition: all 100ms ease-in-out;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 nav a:hover,
@@ -207,6 +208,27 @@ nav li {
   color: var(--third-color);
 }
 
+.project-blurb{
+  font-size: 20px;
+}
+
+#project-title{
+  margin-bottom: 0px;
+}
+
+.project-git-link,
+.project-live-link{
+  font-size: 16px;
+  border: 1px solid;
+  padding: 5px;
+box-shadow: var(--box-shadow)
+}
+
+.project-git-link:hover,
+.project-live-link:hover{
+color: var(--darkest-color);
+}
+
 .img-fluid {
   width: 350px;
   height: 300px;
@@ -224,6 +246,7 @@ nav li {
   width: 400px;
   background: var(--sixth-color);
   box-shadow: var(--box-shadow);
+  border-radius: 10px;
 }
 
 .feedback-container form {
@@ -409,8 +432,14 @@ nav li {
     line-height: 56px;
   }
 
-  nav a {
-    font-size: 16px;
+  nav a {    
+  display: inline-block;
+  justify-content: center;
+  list-style: none;
+  margin: 10px;
+  font-weight: medium;
+  line-height: 20px;
+  font-size: 12px;
   }
 
   .hero-heading {
@@ -420,6 +449,13 @@ nav li {
   .hero-blurb {
     font-size: 24px;
   }
+
+  .profile-picture {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 20px;
+}
 
   .about-hero {
     font-size: 20px;
@@ -432,6 +468,10 @@ nav li {
   .work-heading {
     font-size: 20px;
   }
+
+  .w3-display-bottomleft{
+  font-size: 10px;
+}
 
   .img-fluid {
     width: 300px;
@@ -454,6 +494,10 @@ nav li {
     margin-bottom: 5px;
     font-size: 18px;
   }
+
+  .feedback-container {
+  width: 300px;
+}
 
   .footer-blurb {
     font-size: 14px;
