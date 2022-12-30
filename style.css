@@ -11,7 +11,7 @@
   --gradient: linear-gradient(96.2deg, #ca5cdd 20%, #a000c8 45%, #7600bc 70%);
 }
 
-html,
+/*html,
 body {
   background-image: url('/images/bkgrd2.png');
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
   width: 100%;
   height: 150vh;
   background-color: var(--background-color);
-}
+}*/
 
 .work-body {
   width: 100%;
