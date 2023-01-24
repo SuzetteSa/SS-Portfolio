@@ -46,7 +46,7 @@ padding:0;
 .nav-link {
   text-decoration: none;
   transition: all 100ms ease-in-out;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .nav-link:hover,
@@ -116,7 +116,7 @@ padding:0;
 }
 
 .hero-heading {
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: bold;
   color: var(--second-color);
 }
@@ -145,12 +145,12 @@ padding:0;
 }
 
 .hero-name {
-  font-size: 10em;
+  font-size: 10rem;
   font-family: "Sacramento", cursive;
 }
 
 .about-hero {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .mySlides {
@@ -165,7 +165,7 @@ padding:0;
 
 .w3-left,
 .w3-right {
-  font-size: 1em;
+  font-size: 1rem;
   padding: 0;
 }
 
@@ -195,7 +195,7 @@ padding:0;
 
 .hero-blurb {
   color: var(--fifth-color);
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .hero-blurb-link {
@@ -209,7 +209,7 @@ padding:0;
 .main-contact-links {
   color: var(--first-color);
   padding: 10px 14px;
-  font-size: 1em;
+  font-size: 1rem;
   border-radius: 50%;
 }
 
@@ -241,7 +241,7 @@ padding:0;
 }
 
 .project-blurb{
-  font-size: 0.7em;
+  font-size: 0.7rem;
 }
 
 #project-title{
@@ -250,7 +250,7 @@ padding:0;
 
 .project-git-link,
 .project-live-link{
-  font-size: 0.5em;
+  font-size: 0.5rem;
   border: 1px solid;
   padding: 5px;
 box-shadow: var(--box-shadow)
@@ -289,12 +289,12 @@ color: var(--darkest-color);
 
 .feedback-container form h1 {
   padding: 10px 0px;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .feedback-container form h2 {
   padding: 10px 0px;
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .feedback-container form input {
@@ -304,7 +304,7 @@ color: var(--darkest-color);
   border: 1px solid var(--first-color);
   border-radius: 3px;
   background: var(--background-color);
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .feedback-container form textarea {
@@ -312,7 +312,7 @@ color: var(--darkest-color);
   border: 1px solid var(--first-color);
   border-radius: 3px;
   background: var(--background-color);
-  font-size: 1em;
+  font-size: 1rem;
   width: 100%;
   margin: 4px 0;
 }
@@ -323,7 +323,7 @@ color: var(--darkest-color);
   background: var(--background-color);
   color: var(--darkest-color);
   width: 100%;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: 800;
   border-radius: 3px;
 }
@@ -369,7 +369,7 @@ color: var(--darkest-color);
 .close-btn {
   float: right;
   color: var(--sixth-color);
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: bold;
 }
 .close-btn:hover {
@@ -497,7 +497,7 @@ padding:0;
 }
 
 .resume-link{
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .nav-menu.active{
@@ -507,7 +507,7 @@ padding:0;
 
   .first-name,
   .last-name {
-    font-size: 0.5em;
+    font-size: 0.5rem;
     line-height: 56px;
   }
 
@@ -522,11 +522,11 @@ padding:0;
   }
 
   .hero-heading {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 
   .hero-blurb {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .profile-picture {
@@ -537,7 +537,7 @@ padding:0;
 }
 
   .about-hero {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .work-box {
@@ -545,11 +545,11 @@ padding:0;
   }
 
   .work-heading {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   .w3-display-bottomleft{
-  font-size: 0.3em;
+  font-size: 0.3rem;
 }
 
   .img-fluid {
@@ -571,7 +571,7 @@ padding:0;
 
   .project-blurb {
     margin-bottom: 5px;
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .feedback-container {
@@ -579,12 +579,12 @@ padding:0;
 }
 
   .footer-blurb {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   h1,
   h3 {
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 10px;
   }
 
@@ -603,7 +603,7 @@ footer .social-links a {
   margin: 0 7px;
   color: var(--fourth-color);
   padding: 5px 10px;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   border-radius: 50%;
 }
 
