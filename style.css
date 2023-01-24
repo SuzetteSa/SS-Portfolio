@@ -45,6 +45,8 @@ body {
 nav {
   padding: 5px;
   box-shadow: 0px 5px 10px rgba(74, 18, 120, 0.2);
+  display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -69,6 +71,7 @@ nav li {
   margin: 10px;
   font-weight: medium;
   line-height: 42px;
+  
 }
 
 .home-link {
@@ -85,12 +88,18 @@ nav li {
 .contact-link {
   color: var(--fourth-color);
 }
-.resume-link {
-  color: var(--fifth-color);
-}
+
 
 .feedback-link {
   color: var(--sixth-color);
+}
+
+.resume-link {
+  color: var(--fifth-color);
+  border: var(--fifth-color) solid 1px;
+  border-radius: 30px;
+  padding: 8px;
+  float: right;
 }
 
 .hero {
@@ -228,6 +237,8 @@ box-shadow: var(--box-shadow)
 .project-live-link:hover{
 color: var(--darkest-color);
 }
+
+
 
 .img-fluid {
   width: 350px;
