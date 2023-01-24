@@ -29,31 +29,51 @@
     <title>Front-end developer - Suzette Samm</title>
     </head>
     <body id="feedback-body subsequent-body">
-      <div class="container-fluid"></div>
-      <nav class="d-flex">
+      <header>
+      <nav class="navbar">
+        <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="/" class="home-link nav-link" title="Homepage">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="/about.html" class="about-link nav-link" title="About Suzette"
+              >About</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/work.html" class="work-link nav-link" title="Suzette's Work"
+              >Work</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="/contact.html" class="contact-link nav-link" title="Contact Suzette"
+              >Contact</a
+            >
+          </li>
+          
+          <li class="active nav-item">
+            <a href="/feedback.html" class="feedback-link nav-link" title="Give feedback"
+              >Feedback</a
+            >
+          </li>
+          </ul>
 
-    <ul>
-    <li class="active">
-      <a href="/" class="home-link" title="Homepage">Home</a>
-    </li>
-    <li>
-      <a href="/about.html" class="about-link" title="About Suzette">About</a> 
-    </li>
-    <li>
-       <a href="/work.html" class="work-link" title="Suzette's Work">Work</a> 
-      </li>
-    <li> 
-      <a href="/contact.html" class="contact-link" title="Contact Suzette">Contact</a> 
-    </li>
-    <li> 
-      <a href="/Suzette Samm----Resume.pdf" class="resume-link" title="Download Resume" download="Suzette Samm- Resume">Resume</a> 
-    </li>
-    <li> 
-      <a href="/feedback.html" class="feedback-link" title="Give feedback">Feedback</a> 
-    </li>
-    </ul>
-    </nav>
-    </div>
+          <a
+              href="/Suzette Samm----Resume.pdf"
+              class="resume-link"
+              title="Download Resume"
+              download="Suzette Samm-Resume"
+              >Download Resume</a
+            >   
+        </nav>
+        </header>
+
+
     <div class="feedback-container mt-5">
       <form method="POST" action="https://script.google.com/macros/s/AKfycbyrSOHLjPnF4WkLl83QsKHiGcZAkPdum4B6BZ-gFzIr1tQAaOE4gTNAJ4trAEg-YgI/exec" id="sheet-form"> 
         <h1>Please send me your feedback</h1>
