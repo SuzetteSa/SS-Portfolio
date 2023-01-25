@@ -344,7 +344,7 @@ color: var(--darkest-color);
 }
 
 .modal {
-  display: none;
+  
   position: fixed;
   padding-top: 50px;
   left: 0;
